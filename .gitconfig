@@ -1,1 +1,21 @@
-/home/Dropbox/Save/gitconfig
+[color]
+  ui = auto
+[merge]
+  tool = vimdiff
+[alias]
+  co = checkout
+  br = branch
+  ci = commit
+  st = status
+  unstage = reset HEAD --
+  last = log -1 HEAD
+  visual = gitk
+  d = difftool
+[diff]
+  tool = vimdiff
+[difftool]
+  prompt = false
+[user]
+  name = burgua
+  email = aleksey.lashin@gmail.com
+
