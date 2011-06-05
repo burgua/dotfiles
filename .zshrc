@@ -37,7 +37,6 @@ zstyle ':completion:*:kill:*' command 'ps -u $USER -o pid,%cpu,tty,cputime,cmd'
 { . $HOME/.bashrc; }
 
 { . $HOME/.oh-my-zsh/templates/zshrc.zsh-template; }
-{ . $HOME/.rvm/scripts/rvm; }
 
 plugins=( git ruby rails zsh-syntax-highlighting)
 
@@ -63,7 +62,6 @@ alias ls="ls --color=auto"
 alias proc="sudo ps -Af | grep "
 export EDITOR=$editor
 export HISTCONTROL="erasedups"
-export LD_PRELOAD=/usr/lib/libv4l/v4l1compat.so
 
 #################
 
