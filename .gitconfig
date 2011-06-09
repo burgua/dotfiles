@@ -11,6 +11,7 @@
   last = log -1 HEAD
   visual = gitk
   d = difftool
+  ll = log --graph --pretty=format:'%s - %Cred%h%Creset  %Cgreen(%cr)%Creset %an' --abbrev-commit --date=relative
 [diff]
   tool = vimdiff
 [difftool]
