@@ -38,7 +38,7 @@ zstyle ':completion:*:kill:*' command 'ps -u $USER -o pid,%cpu,tty,cputime,cmd'
 
 { . $HOME/.oh-my-zsh/templates/zshrc.zsh-template; }
 
-plugins=( git ruby rails zsh-syntax-highlighting)
+plugins=( git ruby rails heroku zsh-syntax-highlighting)
 
 #################
 # private aliases
