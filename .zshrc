@@ -21,7 +21,7 @@ zstyle ':completion:*' completer _expand _complete _correct _approximate
 zstyle ':completion:*' format 'Completing %d'
 zstyle ':completion:*' group-name ''
 zstyle ':completion:*' menu select=2
-eval "$(dircolors -b)"
+# eval "$(dircolors -b)"
 zstyle ':completion:*:default' list-colors ${(s.:.)LS_COLORS}
 zstyle ':completion:*' list-colors ''
 zstyle ':completion:*' list-prompt %SAt %p: Hit TAB for more, or the character to insert%s
@@ -55,11 +55,9 @@ alias wg="wget -c "
 alias vt="vim ."
 alias t="tail -f"
 alias tarx="tar -xvvzf"
-alias l="ls -la --group-directories-first --color=always"
 alias i="ping -c 4 google.de"
 alias sys="htop"
 alias fonts="sudo fc-cache -f"
-alias ls="ls --color=auto"
 alias proc="sudo ps -Af | grep "
 export EDITOR=$editor
 export HISTCONTROL="erasedups"
