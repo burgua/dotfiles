@@ -1,12 +1,11 @@
 # Set up the prompt
 
+clear
+
 ZSH=$HOME/.oh-my-zsh
 autoload -Uz promptinit
 promptinit
 prompt walters
-
-cd
-clear
 
 # Use emacs keybindings even if our EDITOR is set to vi
 bindkey -e
