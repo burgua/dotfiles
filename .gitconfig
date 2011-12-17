@@ -17,11 +17,12 @@
 [difftool]
   prompt = false
 [user]
-  name = Aleksey Lashin
+	name = Aleksey Lashin
   email = aleksey.lashin@gmail.com
 
 [core]
 	excludesfile = /Users/burgua/.gitignore_global
+	quotepath = false
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
 	path = 
