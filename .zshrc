@@ -40,7 +40,7 @@ zstyle ':completion:*:kill:*' command 'ps -u $USER -o pid,%cpu,tty,cputime,cmd'
 { . $HOME/.oh-my-zsh/templates/zshrc.zsh-template; }
 { . $HOME/.bashrc; }
 
-plugins=( git ruby rails heroku zsh-syntax-highlighting)
+plugins=( git ruby rails heroku zsh-syntax-highlighting brew cake node npm osx rails3 rvm  )
 
 #################
 # private aliases
