@@ -1,3 +1,3 @@
 source ~/.vim/vimrc
-colorscheme vibrantink
+colorscheme molokai
 let NERDTreeShowBookmarks=1
