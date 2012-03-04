@@ -107,3 +107,4 @@ elif compctl &>/dev/null; then
   compctl -K _bem_completion bem
 fi
 ###-end-bem-completion-###
+export NODE_PATH="/usr/local/lib/node_modules:"
