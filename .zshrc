@@ -40,28 +40,18 @@ zstyle ':completion:*:kill:*' command 'ps -u $USER -o pid,%cpu,tty,cputime,cmd'
 { . $HOME/.oh-my-zsh/templates/zshrc.zsh-template; }
 { . $HOME/.bashrc; }
 
-plugins=( git ruby rails heroku zsh-syntax-highlighting brew cake node npm osx rails3 rvm  )
+plugins=( git ruby heroku zsh-syntax-highlighting brew node npm osx rvm  )
 
 #################
 # private aliases
 
 PROMPT_COMMAND='history -a'
-editor="vim"
-alias vi=$editor
-alias vim=$editor
-alias nano=$editor
-alias svi="sudo $editor"
-alias nbash=$editor" ~/.bashrc"
-alias wg="wget -c "
-alias vt="vim ."
-alias t="tail -f"
-alias tarx="tar -xvvzf"
 alias i="ping -c 4 google.de"
-alias sys="htop"
-alias fonts="sudo fc-cache -f"
-alias proc="sudo ps -Af | grep "
-export EDITOR=$editor
+export EDITOR=vim
 export HISTCONTROL="erasedups"
+
+# get ruby version from either rvm or system ruby.
+RPS1="%{%}%{$reset_color%}%{$fg[cyan]%}\$(~/.rvm/bin/rvm-prompt i v g)%{$reset_color%}"
 
 #################
 
