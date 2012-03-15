@@ -51,7 +51,9 @@ export EDITOR=vim
 export HISTCONTROL="erasedups"
 
 # get ruby version from either rvm or system ruby.
-RPS1="%{%}%{$reset_color%}%{$fg[cyan]%}\$(~/.rvm/bin/rvm-prompt i v g)%{$reset_color%}"
+if [[ -f ~/.rvm/bin/rvm-prompt ]]; then
+  RPS1="%{%}%{$reset_color%}%{$fg[cyan]%}\$(~/.rvm/bin/rvm-prompt i v g)%{$reset_color%}"
+fi
 
 #################
 
