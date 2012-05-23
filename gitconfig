@@ -1,21 +1,19 @@
 [color]
-  ui = auto
+ 		ui = auto
 [merge]
-  tool = vimdiff
+		tool = vimdiff
 [alias]
-  co = checkout
-  br = branch
-  ci = commit
-  st = status
-  unstage = reset HEAD --
-  last = log -1 HEAD
-  visual = gitk
-  d = difftool
-  ll = log --graph --pretty=format:'%s - %Cred%h%Creset  %Cgreen(%cr)%Creset %an' --abbrev-commit --date=relative
+		co = checkout
+		br = branch
+		ci = commit
+		st = status
+		unstage = reset HEAD --
+		last = log -1 HEAD
+		ll = log --graph --pretty=format:'%s - %Cred%h%Creset  %Cgreen(%cr)%Creset %an' --abbrev-commit --date=relative
 [diff]
-  tool = vimdiff
+		tool = vimdiff
 [difftool]
-  prompt = false
+		prompt = false
 [user]
-  name = Aleksey Lashin
-  email = aleksey.lashin@gmail.com
+		name = Aleksey Lashin
+		email = aleksey.lashin@gmail.com
