@@ -1,29 +1,20 @@
 # Set up the prompt
 
-clear
-
-export ZSH=$HOME/.oh-my-zsh
-
-# Keep 1000 lines of history within the shell and save it to ~/.zsh_history:
-HISTSIZE=1000
-SAVEHIST=1000
+# Keep 100 lines of history within the shell and save it to ~/.zsh_history:
+HISTSIZE=100
+SAVEHIST=100
 HISTFILE=~/.zsh_history
 
-# oh my zsh
+plugins=( ruby brew rails rails3 rake svn rvm )
 
-{ . $HOME/.oh-my-zsh/templates/zshrc.zsh-template; }
 { . $HOME/.bashrc; }
-
-plugins=( git ruby heroku zsh-syntax-highlighting brew node npm osx rvm  )
+ZSH=$HOME/.oh-my-zsh
+source $ZSH/oh-my-zsh.sh
 
 # get ruby version from either rvm or system ruby.
 if [[ -f ~/.rvm/bin/rvm-prompt ]]; then
   RPS1="%{%}%{$reset_color%}%{$fg[cyan]%}\$(~/.rvm/bin/rvm-prompt i v g)%{$reset_color%}"
 fi
-
-# exec zsh
-
-source $ZSH/oh-my-zsh.sh
 
 #################
 # private aliases

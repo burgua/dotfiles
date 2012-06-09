@@ -1,7 +1,6 @@
-task :update_configs do
+task :update do
   puts "Copying configs"
   %x[ cp vimrc ../.vimrc ]
-  %x[ cp gvimrc ../.gvimrc ]
   %x[ cp gemrc ../.gemrc ]
   %x[ cp gitconfig ../.gitconfig ]
   %x[ cp zshrc ../.zshrc ]
