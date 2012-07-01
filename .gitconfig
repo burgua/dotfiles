@@ -17,3 +17,5 @@
 [user]
 		name = Aleksey Lashin
 		email = aleksey.lashin@gmail.com
+[credential]
+	helper = osxkeychain

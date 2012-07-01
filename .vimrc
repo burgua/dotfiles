@@ -10,12 +10,11 @@ call vundle#rc()
 Bundle 'gmarik/vundle'
 Bundle 'scrooloose/nerdcommenter'
 Bundle 'scrooloose/nerdtree'
-" Bundle 'Command-T'
-" Bundle 'snipMate'
-" Bundle 'scrooloose/snipmate-snippets'
-" Bundle 'Ack'
-" Bundle 'tpope/vim-rails'
-" Bundle 'tpope/vim-haml'
+Bundle 'Command-T'
+Bundle 'snipMate'
+Bundle 'scrooloose/snipmate-snippets'
+Bundle 'tpope/vim-rails'
+Bundle 'tpope/vim-haml'
 Bundle 'Lokaltog/vim-powerline'
 Bundle 'scrooloose/syntastic'
 Bundle 'edsono/vim-matchit'
@@ -31,6 +30,16 @@ syntax on
 color molokai
 
 set visualbell
+
+set incsearch
+set hlsearch
+set ignorecase
+
+set ruler
+
+set autoindent
+set smartindent
+set title
 
 set encoding=utf-8
 set tabstop=2
