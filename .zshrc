@@ -11,11 +11,6 @@ plugins=( ruby brew rails rails3 rake svn rvm )
 ZSH=$HOME/.oh-my-zsh
 source $ZSH/oh-my-zsh.sh
 
-# get ruby version from either rvm or system ruby.
-if [[ -f ~/.rvm/bin/rvm-prompt ]]; then
-  RPS1="%{%}%{$reset_color%}%{$fg[cyan]%}\$(~/.rvm/bin/rvm-prompt i v g)%{$reset_color%}"
-fi
-
 #################
 # private aliases
 

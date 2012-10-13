@@ -7,20 +7,10 @@ set history=1000
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
-Bundle 'gmarik/vundle'
-Bundle 'scrooloose/nerdcommenter'
 Bundle 'scrooloose/nerdtree'
-Bundle 'Command-T'
-Bundle 'snipMate'
-Bundle 'scrooloose/snipmate-snippets'
-Bundle 'tpope/vim-rails'
-Bundle 'tpope/vim-haml'
+Bundle 'gmarik/vundle'
 Bundle 'Lokaltog/vim-powerline'
 Bundle 'scrooloose/syntastic'
-Bundle 'edsono/vim-matchit'
-Bundle 'tpope/vim-endwise'
-Bundle 'mileszs/ack.vim'
-Bundle 'ap/vim-css-color'
 
 filetype plugin indent on
 
@@ -28,6 +18,9 @@ set nu
 syntax on
 
 color molokai
+
+" remove trailing spaces on write
+autocmd BufWritePre *.py :%s/\s\+$//e
 
 set visualbell
 
