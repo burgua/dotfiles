@@ -11,6 +11,7 @@ Bundle 'scrooloose/nerdtree'
 Bundle 'gmarik/vundle'
 Bundle 'Lokaltog/vim-powerline'
 Bundle 'scrooloose/syntastic'
+Bundle 'jcf/vim-latex'
 
 filetype plugin indent on
 

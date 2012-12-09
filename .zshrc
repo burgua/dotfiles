@@ -19,3 +19,6 @@ alias i="ping -c 4 google.de"
 export EDITOR=vim
 export HISTCONTROL="erasedups"
 
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"

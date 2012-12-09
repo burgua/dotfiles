@@ -9,7 +9,7 @@
 		st = status
 		unstage = reset HEAD --
 		last = log -1 HEAD
-		ll = log --graph --pretty=format:'%s - %Cred%h%Creset  %Cgreen(%cr)%Creset %an' --abbrev-commit --date=relative
+		ll = log --graph --pretty=format:'%Cred%h - %Creset%s%Creset  %Cgreen(%cr)%Creset %C(bold blue) <%an>' --abbrev-commit --date=relative
 [diff]
 		tool = vimdiff
 [difftool]
@@ -19,3 +19,5 @@
 		email = aleksey.lashin@gmail.com
 [credential]
 	helper = osxkeychain
+[core]
+	autocrlf = input
