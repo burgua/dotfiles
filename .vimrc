@@ -13,6 +13,19 @@ Bundle 'Lokaltog/vim-powerline'
 Bundle 'scrooloose/syntastic'
 Bundle 'jcf/vim-latex'
 
+Bundle 'vim-ruby/vim-ruby'
+Bundle 'tpope/vim-rails'
+Bundle 'tpope/vim-endwise'
+Bundle 'tpope/vim-surround'
+Bundle 'tpope/vim-haml'
+Bundle 'tpope/vim-markdown'
+Bundle 'vim-matchit'
+Bundle 'vim-css-color'
+Bundle 'syntastic'
+Bundle 'snipmate-snippets'
+Bundle 'ack.vim'
+" Bundle 'altercation/vim-colors-solarized'
+
 filetype plugin indent on
 
 set nu
@@ -21,7 +34,7 @@ syntax on
 color molokai
 
 " remove trailing spaces on write
-autocmd BufWritePre *.py :%s/\s\+$//e
+autocmd BufWritePre * :%s/\s\+$//e
 
 set visualbell
 
