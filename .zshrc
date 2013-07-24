@@ -5,7 +5,7 @@ HISTSIZE=100
 SAVEHIST=100
 HISTFILE=~/.zsh_history
 
-plugins=( ruby brew rails rails3 rake svn rvm )
+plugins=( git brew bundler cap osx textmate gem rails3 ruby rake rbenv )
 
 { . $HOME/.bashrc; }
 ZSH=$HOME/.oh-my-zsh
@@ -18,7 +18,7 @@ PROMPT_COMMAND='history -a'
 alias i="ping -c 4 google.de"
 export EDITOR=vim
 export HISTCONTROL="erasedups"
-
+export gut="git"
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"

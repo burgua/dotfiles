@@ -9,10 +9,9 @@ call vundle#rc()
 
 Bundle 'scrooloose/nerdtree'
 Bundle 'gmarik/vundle'
-Bundle 'Lokaltog/vim-powerline'
+Bundle 'bling/vim-airline'
 Bundle 'scrooloose/syntastic'
 Bundle 'jcf/vim-latex'
-
 Bundle 'vim-ruby/vim-ruby'
 Bundle 'tpope/vim-rails'
 Bundle 'tpope/vim-endwise'
@@ -24,14 +23,18 @@ Bundle 'vim-css-color'
 Bundle 'syntastic'
 Bundle 'snipmate-snippets'
 Bundle 'ack.vim'
-" Bundle 'altercation/vim-colors-solarized'
+Bundle 'altercation/vim-colors-solarized'
 
 filetype plugin indent on
 
 set nu
 syntax on
 
+let g:solarized_termcolors=256
+" color torte
 color molokai
+"set background=light
+"color solarized
 
 " remove trailing spaces on write
 autocmd BufWritePre * :%s/\s\+$//e
