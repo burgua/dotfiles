@@ -5,7 +5,7 @@ HISTSIZE=100
 SAVEHIST=100
 HISTFILE=~/.zsh_history
 
-plugins=( git brew bundler cap osx textmate gem rails3 ruby rake rbenv )
+plugins=( git brew cap osx bundle textmate gem rails ruby rake )
 
 { . $HOME/.bashrc; }
 ZSH=$HOME/.oh-my-zsh

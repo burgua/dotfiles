@@ -7,34 +7,19 @@ set history=1000
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
-Bundle 'scrooloose/nerdtree'
 Bundle 'gmarik/vundle'
-Bundle 'bling/vim-airline'
+Bundle 'scrooloose/nerdtree'
 Bundle 'scrooloose/syntastic'
-Bundle 'jcf/vim-latex'
-Bundle 'vim-ruby/vim-ruby'
-Bundle 'tpope/vim-rails'
 Bundle 'tpope/vim-endwise'
-Bundle 'tpope/vim-surround'
-Bundle 'tpope/vim-haml'
-Bundle 'tpope/vim-markdown'
-Bundle 'vim-matchit'
-Bundle 'vim-css-color'
-Bundle 'syntastic'
-Bundle 'snipmate-snippets'
-Bundle 'ack.vim'
-Bundle 'altercation/vim-colors-solarized'
+Bundle 'bling/vim-airline'
+Bundle 'skammer/vim-css-color'
+Bundle 'honza/vim-snippets'
 
 filetype plugin indent on
 
 set nu
 syntax on
-
-let g:solarized_termcolors=256
-" color torte
 color molokai
-"set background=light
-"color solarized
 
 " remove trailing spaces on write
 autocmd BufWritePre * :%s/\s\+$//e
