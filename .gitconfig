@@ -10,7 +10,6 @@
   st = status
   unstage = reset HEAD --
   last = log -1 HEAD
-  pull = pull --rebase
   pu = !"git fetch origin -v; git fetch upstream -v; git merge upstream/master"
   ll = log --graph --pretty=format:'%Cred%h - %Creset%s%Creset  %Cgreen(%cr)%Creset %C(bold blue) <%an>' --abbrev-commit --date=relative
   cleanup = remote prune origin
@@ -20,10 +19,11 @@
   prompt = false
 [user]
   name = Aleksey Lashin
-	email = aleksey.lashin@gmail.com
+  email = aleksey.lashin@gmail.com
 [core]
-	autocrlf = input
-	quotepath = false
-# not actual on linux
+  autocrlf = input
+  quotepath = false
+[pull]
+  rebase = true
 [credential]
-	helper = osxkeychain
+  helper = osxkeychain
