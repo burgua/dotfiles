@@ -21,8 +21,9 @@
 [user]
   name = Aleksey Lashin
 	email = aleksey.lashin@gmail.com
-[credential]
-	helper = osxkeychain
 [core]
 	autocrlf = input
 	quotepath = false
+# not actual on linux
+[credential]
+	helper = osxkeychain
