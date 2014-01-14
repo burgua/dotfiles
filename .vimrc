@@ -14,6 +14,7 @@ Bundle 'tpope/vim-endwise'
 Bundle 'bling/vim-airline'
 Bundle 'skammer/vim-css-color'
 Bundle 'honza/vim-snippets'
+Bundle 'tomasr/molokai'
 
 filetype plugin indent on
 
