@@ -9,7 +9,7 @@ plugins=( brew bower bundler cap capistrano coffee colorize docker gem git git-f
 
 { . $HOME/.bashrc; }
 
-ZSH_THEME=("gianu")
+ZSH_THEME=("robbyrussell")
 ZSH=$HOME/.oh-my-zsh
 source $ZSH/oh-my-zsh.sh
 alias l="ls -la"
