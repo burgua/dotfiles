@@ -5,7 +5,7 @@ HISTSIZE=100
 SAVEHIST=100
 HISTFILE=~/.zsh_history
 
-plugins=( brew bower bundler cap capistrano coffee colorize docker gem git git-flow git-extras github gitignore heroku node npm osx postgres rails rake rbenv ruby sudo textmate vagrant vundle xcode zeus )
+plugins=( git )
 
 { . $HOME/.bashrc; }
 
@@ -27,3 +27,8 @@ export gut="git"
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
+
+# rbenv
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
+
