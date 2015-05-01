@@ -5,7 +5,7 @@ HISTSIZE=100
 SAVEHIST=100
 HISTFILE=~/.zsh_history
 
-plugins=( git )
+plugins=( git osx rails ruby brew capistrano rbenv docker gem node npm postgres rake )
 
 { . $HOME/.bashrc; }
 
@@ -23,12 +23,4 @@ PROMPT_COMMAND='history -a'
 alias i="ping -c 4 google.de"
 export EDITOR=vim
 export HISTCONTROL="erasedups"
-export gut="git"
-
-### Added by the Heroku Toolbelt
-export PATH="/usr/local/heroku/bin:$PATH"
-
-# rbenv
-export PATH="$HOME/.rbenv/bin:$PATH"
-eval "$(rbenv init -)"
 
