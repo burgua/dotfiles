@@ -4,23 +4,11 @@ set laststatus=2
 
 set history=1000
 
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
-
-Bundle 'gmarik/vundle'
-Bundle 'scrooloose/nerdtree'
-Bundle 'scrooloose/syntastic'
-Bundle 'tpope/vim-endwise'
-Bundle 'bling/vim-airline'
-Bundle 'skammer/vim-css-color'
-Bundle 'honza/vim-snippets'
-Bundle 'tomasr/molokai'
-
 filetype plugin indent on
 
 set nu
 syntax on
-color molokai
+color torte
 
 " remove trailing spaces on write
 autocmd BufWritePre * :%s/\s\+$//e
