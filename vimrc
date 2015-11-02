@@ -8,10 +8,7 @@ filetype plugin indent on
 
 set nu
 syntax on
-color torte
-
-" remove trailing spaces on write
-autocmd BufWritePre * :%s/\s\+$//e
+color desert
 
 set visualbell
 
