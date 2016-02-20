@@ -8,7 +8,7 @@ filetype plugin indent on
 
 set nu
 syntax on
-color desert
+color pablo 
 
 set visualbell
 
