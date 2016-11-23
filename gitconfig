@@ -11,9 +11,6 @@
 	pu = !"git fetch origin -v; git fetch upstream -v; git merge upstream/master"
 	ll = log --graph --pretty=format:'%Cred%h - %Creset%s%Creset  %Cgreen(%cr)%Creset %C(bold blue) <%an>' --abbrev-commit --date=relative
 	cleanup = remote prune origin
-[user]
-	name = Aleksey Lashin
-	email = aleksey.lashin@gmail.com
 [core]
 	autocrlf = input
 	quotepath = false
