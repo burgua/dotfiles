@@ -1,6 +1,5 @@
 # .dotfiles
 
 * configuration files for vim (.vimrc)
-* configuration files for gems (.gemrc)
-* my aliases, ZSH-configuration (.zshrc)
+* my aliases + bash configuration (.bash_profile)
 * git config
